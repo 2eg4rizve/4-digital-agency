@@ -158,13 +158,18 @@
 .appointment-container {
     width: 70%;
     height: 150px;
+    /* height: 30vh; */
     background-image: url("./asset/image/background.jpg"),
-        linear-gradient(rgba(13, 28, 193, 0.5), rgba(199, 26, 26, 0.8));
+        linear-gradient(rgba(13, 28, 193, 0.5), rgba(163, 26, 26, 0.4));
+    /* background-image: url("./asset/image/background.jpg"); */
     background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     margin: auto;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 10px;
     margin-top: -30px;
     padding: 50px;
@@ -183,40 +188,40 @@
 
 /* blog */
 
-.blog-container {
+.blog-container{
     width: 80%;
-    margin: auto;
-    /* background-color: gray; */
-    padding: 10px;
+    margin: auto ;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
 }
-
-.blog-title {
+.blog-title{
     color: black;
     text-align: center;
-    margin: 50px;
+    margin :50px ;
 }
-
-.card {
-    width: 220px;
-    height: 300px;
-    /* background-color: blue; */
-    box-shadow: 4px 8px 4px gray;
+.card{
+    width:220px;
+    height: 320px;
+    background-color: aqua;
+    box-shadow: 4px 8px 4px rgb(210, 1, 1);
     border-radius: 5px;
-
 }
-
-.blog-img {
+.blog-img{
     width: 100%;
     border-radius: 5px;
 }
-
-.card-title {
+.card-title{
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-left: 5px;
 }
-
-.cards {
+.cards{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 150px;
+}
+.blog-p{
+    margin: 15px;
 }
