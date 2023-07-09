@@ -156,10 +156,13 @@
 
 
 .appointment-container {
+    width: 70%;
+    height: 150px;
+    background-image: url("./asset/image/background.jpg"),
+        linear-gradient(rgba(13, 28, 193, 0.5), rgba(199, 26, 26, 0.8));
+    background-blend-mode: overlay;
     display: flex;
     justify-content: space-around;
-    width: 70%;
-    height: 50px;
     margin: auto;
     background-color: red;
     border-radius: 10px;
