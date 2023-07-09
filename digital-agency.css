@@ -89,12 +89,24 @@
     background-size: cover;
     color: white;
     display: flex;
-   
-    
+    align-items: center;
+    padding: 30px;
+
+
+
 }
-.box{
-    
-    height: 100px;
+
+.service-description {
+    width: 50%;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.box {
+
+    height: 150px;
     width: 150px;
     padding: 50px;
     background-color: wheat;
@@ -103,8 +115,34 @@
     border-radius: 5px;
     /* box-shadow:  */
 }
-.icon{
-   
+
+.icon {
+
     width: 70px;
     margin-bottom: 20px;
+}
+
+
+.first-two-box {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
